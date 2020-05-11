@@ -8,7 +8,9 @@ def join_nested_strings(src)
   while row_count < src.count do 
     column_count = 0 
     while column_count < src[row_count].count do 
-      if src[row_count][column_count]is_a?(String)
+      if src[row_count][column_count].is_a?(String)
+        
+      end 
     column_count += 1 
     end 
   row_count += 1   
