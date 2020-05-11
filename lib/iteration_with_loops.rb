@@ -6,8 +6,12 @@ def join_nested_strings(src)
   string = []
   
   while row_count < src.count do 
-    
+    column_count = 0 
+    while column_count < src[row_count].count do 
+      if 
+    column_count += 1 
+    end 
+  row_count += 1   
   end 
-  row_count += 1 
   
 end
