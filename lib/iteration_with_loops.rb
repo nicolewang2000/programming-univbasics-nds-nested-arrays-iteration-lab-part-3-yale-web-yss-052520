@@ -15,5 +15,5 @@ def join_nested_strings(src)
     end 
   row_count += 1   
   end 
-  phrase
+  phrase.join
 end
