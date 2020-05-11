@@ -3,13 +3,13 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   
   row_count = 0 
-  string = []
+  phrase = []
   
   while row_count < src.count do 
     column_count = 0 
     while column_count < src[row_count].count do 
       if src[row_count][column_count].is_a?(String)
-        
+        phrase  << src[row_count][column_count]
       end 
     column_count += 1 
     end 
